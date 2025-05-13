@@ -1,0 +1,86 @@
+.card-cursos:hover {
+  transform: scale(1.04);
+  transition: transform 0.3s ease-in-out;
+  background-color: var(--color-shadow-primary);
+}
+
+.card-container {
+  perspective: 1000px;
+}
+
+.card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}
+
+.menu-item {
+  color: var(--color-neutral-subordinary);
+  font-weight: 300;
+}
+
+.menu-item:hover {
+  font-weight: 600;
+}
+
+.menu-item a.active {
+  color: var(--color-neutral-base);
+  font-weight: 600;
+}
+
+.btn-neutral {
+  color: var(--color-neutral-base);
+}
+
+.btn-neutral:hover {
+  color: var(--color-neutral-subordinary);
+}
+
+.btn-primary {
+  background-color: var(--color-primary-5);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-4);
+}
+
+.btn-secondary {
+  background-color: var(--color-neutral-base);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary-7);
+}
+
+.btn-link {
+  color: var(--color-primary-5);
+}
+
+.btn-link:hover {
+  color: var(--color-primary-4);
+}
+
+.btn-link-pasivo {
+  color: var(--color-neutral-subordinary);
+}
+
+.btn-link-pasivo:hover {
+  color: var(--color-primary-4);
+}
