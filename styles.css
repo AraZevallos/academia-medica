@@ -84,3 +84,33 @@
 .btn-link-pasivo:hover {
   color: var(--color-primary-4);
 }
+
+#modal::backdrop {
+  background-color: rgba(30, 56, 69, 0.6);
+}
+
+.input-acceso::placeholder {
+  font-size: 16px;
+  text-align: center;
+  color: var(--color-neutral-subordinary);
+}
+
+.input-acceso {
+  border: 1px solid var(--color-primary-2);
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+}
+
+.input-acceso:focus {
+  border: 1px solid var(--color-primary-3);
+  outline: none;
+}
+
+.input-acceso:focus::placeholder {
+  color: var(--color-neutral-base);
+}
+
+.input-acceso:focus::placeholder {
+    color: transparent;
+}

@@ -163,7 +163,8 @@
                 <!-- Cirugía general -->
                 <div
                   class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-                  style="width: 33%"
+                  style="width: 100%"
+                  onclick="openModal('Cirugía general')"
                 >
                   <div class="flex items-center gap-16 text-neutral-base">
                     <div
@@ -218,7 +219,8 @@
                 <!-- Pediatría -->
                 <div
                   class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-                  style="width: 33%"
+                  style="width: 100%"
+                  onclick="openModal('Pediatría')"
                 >
                   <div class="flex items-center gap-16 text-neutral-base">
                     <div
@@ -269,7 +271,8 @@
                 <!-- Infectología -->
                 <div
                   class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-                  style="width: 33%"
+                  style="width: 100%"
+                  onclick="openModal('Infectología')"
                 >
                   <div class="flex items-center gap-16 text-neutral-base">
                     <div
@@ -322,7 +325,8 @@
                 <!-- Cardiología -->
                 <div
                   class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-                  style="width: 33%"
+                  style="width: 100%"
+                  onclick="openModal('Cardiología')"
                 >
                   <div class="flex items-center gap-16 text-neutral-base">
                     <div
@@ -373,7 +377,8 @@
                 <!-- Ginecología -->
                 <div
                   class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-                  style="width: 33%"
+                  style="width: 100%"
+                  onclick="openModal('Ginecología')"
                 >
                   <div class="flex items-center gap-16 text-neutral-base">
                     <div
@@ -424,7 +429,8 @@
                 <!-- Neurología -->
                 <div
                   class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-                  style="width: 33%"
+                  style="width: 100%"
+                  onclick="openModal('Neurología')"
                 >
                   <div class="flex items-center gap-16 text-neutral-base">
                     <div
@@ -705,7 +711,7 @@
           class="flex-column justify-between items-center gap-24 pt-40 br-16 bg-secondary-third-hard"
           style="width: 432px"
         >
-          <div class="flex flex-center" style="flex: 1;">
+          <div class="flex flex-center" style="flex: 1">
             <h4 class="text-medium text-center text-neutral-inverse px-40">
               Descubre cómo te ayudamos a aprender
             </h4>
@@ -810,6 +816,7 @@
         </div>
       </section>
 
+      <!-- footer -->
       <section class="w100 flex justify-center bg-neutral-base">
         <div
           class="w100 flex justify-center gap-80 px-80 pt-40 pb-80"
@@ -904,6 +911,111 @@
         />
       </svg>
     </button>
+
+    <!-- Modal -->
+    <dialog id="modal" class="br-24" style="border: none; margin: auto">
+      <div class="flex position-relative">
+        <img src="assets/pexels-pavel-danilyuk-5998447.png" width="222" />
+
+        <div
+          class="flex position-absolute"
+          style="
+            top: 0;
+            left: 0;
+            width: 222px;
+            height: 100%;
+            background: linear-gradient(
+              to bottom right,
+              var(--color-primary-5) 25%,
+              var(--color-neutral-inverse) 100%
+            );
+            opacity: 0.6;
+          "
+        ></div>
+
+        <p
+          class="position-absolute text-medium text-neutral-inverse"
+          style="top: 16px; left: 16px; width: 138px"
+        >
+          ¡Ingresa tu código y explora todo el contenido de este curso!
+        </p>
+
+        <div class="flex-column gap-24 p-24" style="width: 500px">
+          <!-- header -->
+          <div class="w100 flex gap-24 justify-between">
+            <h5 class="text-medium text-neutral-base">
+              Desbloquea
+              <span id="modal-title" class="text-primary-5"> </span>
+            </h5>
+
+            <button onclick="closeModal()" class="text-neutral-disabled">
+              <svg
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M2.28375 1.68054C2.74671 1.21757 3.49672 1.21757 3.95961 1.68054L8.60319 6.32412L13.2468 1.68054C13.7097 1.21757 14.4597 1.21757 14.9226 1.68054C15.3855 2.1435 15.3856 2.89351 14.9226 3.3564L10.2791 7.99998L14.9226 12.6436C15.3856 13.1065 15.3856 13.8565 14.9226 14.3194C14.4597 14.7823 13.7097 14.7824 13.2468 14.3194L8.60319 9.67584L3.95961 14.3194C3.49664 14.7824 2.74664 14.7824 2.28375 14.3194C1.82086 13.8564 1.82078 13.1064 2.28375 12.6436L6.92733 7.99998L2.28375 3.3564C1.82078 2.89343 1.82078 2.14343 2.28375 1.68054Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <!-- content -->
+          <div class="flex-column flex-center gap-16 py-16 br-16 bg-primary-1">
+            <div class="flex text-primary-5">
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.60254 20.2494V18.3107C0.602197 17.8192 0.699107 17.3327 0.887686 16.8789C1.07627 16.4252 1.35279 16.0132 1.70131 15.6669L5.36513 11.9993C4.87552 9.93433 5.07296 7.76615 5.92753 5.82354C6.78206 3.88111 8.24706 2.27049 10.1001 1.23611C11.9531 0.201729 14.093 -0.199829 16.195 0.0924127C18.2969 0.384654 20.2461 1.35477 21.7467 2.85534C23.2473 4.35591 24.2173 6.30512 24.5096 8.40704C24.8018 10.5091 24.4003 12.6489 23.366 14.502C22.3316 16.3551 20.721 17.8199 18.7785 18.6745C16.836 19.5291 14.6677 19.7264 12.6028 19.237L8.9427 22.9007C8.59541 23.2502 8.18226 23.5273 7.72715 23.7158C7.27204 23.9045 6.78405 24.0008 6.2914 23.9995H4.35261C3.86015 23.9995 3.3725 23.9024 2.91752 23.714C2.46254 23.5256 2.04914 23.2493 1.70091 22.9012C1.35268 22.5529 1.07646 22.1395 0.887995 21.6844C0.699542 21.2296 0.60254 20.742 0.60254 20.2494ZM3.61559 18.1709C3.60694 18.2169 3.60256 18.2636 3.6026 18.3107V20.2494C3.6026 20.4483 3.68162 20.6391 3.82227 20.7797C3.96293 20.9205 4.1537 20.9994 4.35261 20.9994H6.2914C6.3265 20.9994 6.36145 20.997 6.39606 20.9923C6.45903 20.9835 6.52079 20.9667 6.57978 20.9421C6.67117 20.904 6.75412 20.8484 6.82391 20.7782L10.829 16.7656C11.2319 16.3593 11.7793 16.1287 12.3515 16.1243C12.5488 16.1276 12.7445 16.1591 12.9328 16.2181C13.5555 16.4056 14.2025 16.5004 14.8528 16.4994C16.1879 16.4994 17.4929 16.1035 18.603 15.3617C19.7131 14.6201 20.5782 13.5657 21.0891 12.3323C21.6 11.0989 21.7337 9.74172 21.4732 8.43231C21.2128 7.1229 20.5699 5.92021 19.6259 4.9761C18.6819 4.0322 17.4791 3.38929 16.1697 3.12873C14.8603 2.86834 13.5031 3.00202 12.2697 3.51289C11.0362 4.02376 9.98199 4.88894 9.24027 5.99915C8.49858 7.10914 8.10268 8.41416 8.10268 9.74923C8.10167 10.3996 8.19644 11.0465 8.38394 11.6693C8.48988 12.0373 8.49423 12.4274 8.3965 12.7976C8.29881 13.1681 8.10268 13.5051 7.82893 13.7731L3.82385 17.7782C3.75366 17.848 3.69798 17.9309 3.66 18.0223C3.64003 18.0702 3.62518 18.1201 3.61559 18.1709ZM17.8529 8.2492C17.8529 9.07759 17.1813 9.74923 16.3528 9.74923C15.5244 9.74923 14.8528 9.07759 14.8528 8.2492C14.8528 7.42081 15.5244 6.74917 16.3528 6.74917C17.1813 6.74917 17.8529 7.42081 17.8529 8.2492Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+
+            <input
+              id="input-acceso"
+              type="text"
+              class="bg-neutral-inverse text-regular p-16 gap-16 br-16 input-acceso"
+              placeholder="Código de acceso"
+              style="height: 48px; width: 240px"
+            />
+
+            <button
+              class="flex items-center px-24 py-16 gap-8 br-16 shadow-primary text-neutral-inverse bg-primary-5 btn-primary"
+            >
+              Acceder al curso
+            </button>
+          </div>
+
+          <!-- footer -->
+          <div class="flex gap-8 justify-center">
+            <small class="flex text-regular text-neutral-subordinary">
+              Si no tienes un código, ponte en contacto con:
+            </small>
+
+            <button
+              class="flex items-center gap-8 br-16 text-primary-5 btn-link"
+              style="font-size: 12px"
+            >
+              twomedicsoficial&#64;gmail.com
+            </button>
+          </div>
+        </div>
+      </div>
+    </dialog>
   </body>
 
   <script>
@@ -957,5 +1069,22 @@
         target.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     });
+
+    function openModal(title) {
+      document.getElementById("modal-title").textContent = title;
+
+      const modal = document.getElementById("modal");
+      modal.showModal();
+
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal) modal.close();
+      });
+
+      document.getElementById("input-acceso").value = "";
+    }
+
+    function closeModal() {
+      document.getElementById("modal").close();
+    }
   </script>
 </html>
