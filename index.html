@@ -19,12 +19,7 @@
       class="w100 flex justify-between px-40 py-24 shadow-overlay"
       style="height: 78px"
     >
-      <img
-        src="assets/logo.svg"
-        alt="Logo academia médica"
-        width="178"
-        height="30"
-      />
+      <img src="assets/logo.svg" alt="Logo academia médica" height="40" />
 
       <ul id="menu" class="flex gap-40">
         <li class="text-neutral-subordinary menu-item">
@@ -46,10 +41,11 @@
     </nav>
 
     <main class="w100 flex-column flex-grow items-center scroll-y">
+      <!-- bienvenido -->
       <section
         id="bienvenido"
-        class="flex-column gap-40 px-40 py-80"
-        style="max-width: 1366px"
+        class="w100 flex-column gap-40 px-40 py-80"
+        style="max-width: 1400px"
       >
         <div class="flex-column gap-24" style="padding-left: 480px">
           <small
@@ -127,706 +123,604 @@
         </div>
       </section>
 
+      <!-- cursos -->
       <section
         id="cursos"
-        class="flex-column gap-40 p-40 pb-80 items-center"
-        style="max-width: 1366px"
+        class="w100 flex-column gap-40 p-40 pb-80 items-center position-relative"
+        style="max-width: 1400px"
       >
-        <h5
-          class="text-medium self-center px-40 py-16 br-16 text-primary-5 bg-primary-1"
-        >
-          NUESTRA PROPUESTA
-        </h5>
+        <div class="w100 flex flex-center gap-80 text-center">
+          <p
+            class="text-medium self-center px-40 py-16 br-16 text-success-hard bg-success-soft"
+            style="width: 260px"
+          >
+            NUESTRA PROPUESTA
+          </p>
 
-        <div class="flex-column gap-8 text-center">
-          <h4 class="text-medium text-neutral-base">
-            ¿Estás listo para superar los exámenes más exigentes del país?
+          <h4
+            class="text-medium py-24 text-secondary-third-hard"
+            style="flex: 1"
+          >
+            ¡Más de 20 cursos en línea a tu disposición!
           </h4>
-
-          <h5 class="text-regular text-neutral-subordinary">
-            Nuestros cursos están diseñados para brindarte una formación
-            integral y actualizada que te permitirá alcanzar tus metas
-            profesionales.
-          </h5>
         </div>
 
-        <h4 class="text-medium py-24 text-secondary-third-hard">
-          ¡Más de 20 cursos en línea a tu disposición!
-        </h4>
+        <div class="w100 flex gap-80">
+          <div class="flex-column gap-16" style="width: 260px">
+            <h4 class="text-medium text-neutral-base">
+              ¿Listo para superar los exámenes más exigentes del país?
+            </h4>
 
-        <div class="w100 flex-column gap-24 text-medium">
-          <div class="w100 flex flex-center gap-24">
-            <!-- Cirugía general -->
-            <div
-              class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-              style="width: 25%"
-            >
-              <div class="flex items-center gap-16 text-neutral-base">
-                <div class="flex p-8 br-16 text-neutral-inverse bg-primary-5">
-                  01.
-                </div>
-                Cirugía general
-              </div>
-
-              <div class="flex items-end justify-between">
-                <div class="position-relative">
-                  <div
-                    class="bg-primary-2 position-absolute"
-                    style="
-                      width: 48px;
-                      height: 48px;
-                      border-radius: 50%;
-                      left: 16px;
-                      top: 8px;
-                      z-index: -1;
-                    "
-                  ></div>
-
-                  <img src="assets/cursos-iconos.svg" width="40" height="40" />
-                </div>
-
-                <button
-                  class="flex items-center gap-8 br-16 text-primary-5 btn-link"
-                >
-                  Ver curso
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-
-            <!-- Pediatría -->
-            <div
-              class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-              style="width: 25%"
-            >
-              <div class="flex items-center gap-16 text-neutral-base">
-                <div class="flex p-8 br-16 text-neutral-inverse bg-primary-5">
-                  02.
-                </div>
-                Pediatría
-              </div>
-
-              <div class="flex items-end justify-between">
-                <div class="position-relative">
-                  <div
-                    class="flex bg-primary-2 position-absolute"
-                    style="
-                      width: 48px;
-                      height: 48px;
-                      border-radius: 50%;
-                      left: 16px;
-                      top: 8px;
-                      z-index: -1;
-                    "
-                  ></div>
-
-                  <img src="assets/pedia.svg" width="40" height="40" />
-                </div>
-
-                <button
-                  class="flex items-center gap-8 br-16 text-primary-5 btn-link"
-                >
-                  Ver curso
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-
-            <!-- Infectología -->
-            <div
-              class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-              style="width: 25%"
-            >
-              <div class="flex items-center gap-16 text-neutral-base">
-                <div class="flex p-8 br-16 text-neutral-inverse bg-primary-5">
-                  03.
-                </div>
-                Infectología
-              </div>
-
-              <div class="flex items-end justify-between">
-                <div class="position-relative">
-                  <div
-                    class="flex bg-primary-2 position-absolute"
-                    style="
-                      width: 48px;
-                      height: 48px;
-                      border-radius: 50%;
-                      left: 16px;
-                      top: 8px;
-                      z-index: -1;
-                    "
-                  ></div>
-
-                  <img src="assets/infect.svg" width="40" height="40" />
-                </div>
-
-                <button
-                  class="flex items-center gap-8 br-16 text-primary-5 btn-link"
-                >
-                  Ver curso
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-
-            <!-- Cardiología -->
-            <div
-              class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-              style="width: 25%"
-            >
-              <div class="flex items-center gap-16 text-neutral-base">
-                <div class="flex p-8 br-16 text-neutral-inverse bg-primary-5">
-                  04.
-                </div>
-                Cardiología
-              </div>
-
-              <div class="flex items-end justify-between">
-                <div class="position-relative">
-                  <div
-                    class="flex bg-primary-2 position-absolute"
-                    style="
-                      width: 48px;
-                      height: 48px;
-                      border-radius: 50%;
-                      left: 16px;
-                      top: 8px;
-                      z-index: -1;
-                    "
-                  ></div>
-
-                  <img src="assets/cardio.svg" width="40" height="40" />
-                </div>
-
-                <button
-                  class="flex items-center gap-8 br-16 text-primary-5 btn-link"
-                >
-                  Ver curso
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
+            <h5 class="text-regular text-neutral-subordinary">
+              Formación integral y actualizada para alcanzar tus metas
+              profesionales.
+            </h5>
           </div>
 
-          <div class="w100 flex flex-center gap-24">
-            <!-- Ginecología -->
-            <div
-              class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-            >
-              <div class="flex items-center gap-16 text-neutral-base">
-                <div class="flex p-8 br-16 text-neutral-inverse bg-primary-5">
-                  05.
+          <div class="flex-column gap-40" style="flex: 1">
+            <div class="flex-column gap-24">
+              <div class="flex flex-center gap-24">
+                <!-- Cirugía general -->
+                <div
+                  class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
+                  style="width: 33%"
+                >
+                  <div class="flex items-center gap-16 text-neutral-base">
+                    <div
+                      class="flex p-8 br-16 text-neutral-inverse bg-primary-5"
+                    >
+                      01.
+                    </div>
+                    Cirugía general
+                  </div>
+
+                  <div class="flex items-end justify-between">
+                    <div class="position-relative">
+                      <div
+                        class="bg-primary-2 position-absolute"
+                        style="
+                          width: 48px;
+                          height: 48px;
+                          border-radius: 50%;
+                          left: 16px;
+                          top: 8px;
+                          z-index: -1;
+                        "
+                      ></div>
+
+                      <img
+                        src="assets/cursos-iconos.svg"
+                        width="40"
+                        height="40"
+                      />
+                    </div>
+
+                    <button
+                      class="flex items-center gap-8 br-16 text-primary-5 btn-link"
+                    >
+                      Explorar
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                 </div>
-                Ginecología
+
+                <!-- Pediatría -->
+                <div
+                  class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
+                  style="width: 33%"
+                >
+                  <div class="flex items-center gap-16 text-neutral-base">
+                    <div
+                      class="flex p-8 br-16 text-neutral-inverse bg-primary-5"
+                    >
+                      02.
+                    </div>
+                    Pediatría
+                  </div>
+
+                  <div class="flex items-end justify-between">
+                    <div class="position-relative">
+                      <div
+                        class="flex bg-primary-2 position-absolute"
+                        style="
+                          width: 48px;
+                          height: 48px;
+                          border-radius: 50%;
+                          left: 16px;
+                          top: 8px;
+                          z-index: -1;
+                        "
+                      ></div>
+
+                      <img src="assets/pedia.svg" width="40" height="40" />
+                    </div>
+
+                    <button
+                      class="flex items-center gap-8 br-16 text-primary-5 btn-link"
+                    >
+                      Explorar
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Infectología -->
+                <div
+                  class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
+                  style="width: 33%"
+                >
+                  <div class="flex items-center gap-16 text-neutral-base">
+                    <div
+                      class="flex p-8 br-16 text-neutral-inverse bg-primary-5"
+                    >
+                      03.
+                    </div>
+                    Infectología
+                  </div>
+
+                  <div class="flex items-end justify-between">
+                    <div class="position-relative">
+                      <div
+                        class="flex bg-primary-2 position-absolute"
+                        style="
+                          width: 48px;
+                          height: 48px;
+                          border-radius: 50%;
+                          left: 16px;
+                          top: 8px;
+                          z-index: -1;
+                        "
+                      ></div>
+
+                      <img src="assets/infect.svg" width="40" height="40" />
+                    </div>
+
+                    <button
+                      class="flex items-center gap-8 br-16 text-primary-5 btn-link"
+                    >
+                      Explorar
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
               </div>
 
-              <div class="flex items-end justify-between">
-                <div class="position-relative">
-                  <div
-                    class="flex bg-primary-2 position-absolute"
-                    style="
-                      width: 48px;
-                      height: 48px;
-                      border-radius: 50%;
-                      left: 16px;
-                      top: 8px;
-                      z-index: -1;
-                    "
-                  ></div>
+              <div class="flex flex-center gap-24">
+                <!-- Cardiología -->
+                <div
+                  class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
+                  style="width: 33%"
+                >
+                  <div class="flex items-center gap-16 text-neutral-base">
+                    <div
+                      class="flex p-8 br-16 text-neutral-inverse bg-primary-5"
+                    >
+                      04.
+                    </div>
+                    Cardiología
+                  </div>
 
-                  <img src="assets/gine.svg" width="40" height="40" />
+                  <div class="flex items-end justify-between">
+                    <div class="position-relative">
+                      <div
+                        class="flex bg-primary-2 position-absolute"
+                        style="
+                          width: 48px;
+                          height: 48px;
+                          border-radius: 50%;
+                          left: 16px;
+                          top: 8px;
+                          z-index: -1;
+                        "
+                      ></div>
+
+                      <img src="assets/cardio.svg" width="40" height="40" />
+                    </div>
+
+                    <button
+                      class="flex items-center gap-8 br-16 text-primary-5 btn-link"
+                    >
+                      Explorar
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                 </div>
 
-                <button
-                  class="flex items-center gap-8 br-16 text-primary-5 btn-link"
+                <!-- Ginecología -->
+                <div
+                  class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
+                  style="width: 33%"
                 >
-                  Ver curso
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
+                  <div class="flex items-center gap-16 text-neutral-base">
+                    <div
+                      class="flex p-8 br-16 text-neutral-inverse bg-primary-5"
+                    >
+                      05.
+                    </div>
+                    Ginecología
+                  </div>
+
+                  <div class="flex items-end justify-between">
+                    <div class="position-relative">
+                      <div
+                        class="flex bg-primary-2 position-absolute"
+                        style="
+                          width: 48px;
+                          height: 48px;
+                          border-radius: 50%;
+                          left: 16px;
+                          top: 8px;
+                          z-index: -1;
+                        "
+                      ></div>
+
+                      <img src="assets/gine.svg" width="40" height="40" />
+                    </div>
+
+                    <button
+                      class="flex items-center gap-8 br-16 text-primary-5 btn-link"
+                    >
+                      Explorar
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Neurología -->
+                <div
+                  class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
+                  style="width: 33%"
+                >
+                  <div class="flex items-center gap-16 text-neutral-base">
+                    <div
+                      class="flex p-8 br-16 text-neutral-inverse bg-primary-5"
+                    >
+                      06.
+                    </div>
+                    Neurología
+                  </div>
+
+                  <div class="flex items-end justify-between">
+                    <div class="position-relative">
+                      <div
+                        class="flex bg-primary-2 position-absolute"
+                        style="
+                          width: 48px;
+                          height: 48px;
+                          border-radius: 50%;
+                          left: 16px;
+                          top: 8px;
+                          z-index: -1;
+                        "
+                      ></div>
+
+                      <img src="assets/neuro.svg" width="40" height="40" />
+                    </div>
+
+                    <button
+                      class="flex items-center gap-8 br-16 text-primary-5 btn-link"
+                    >
+                      Explorar
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <!-- Neurología -->
-            <div
-              class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
+            <button
+              class="flex items-center px-24 py-16 gap-8 br-16 shadow-primary text-neutral-inverse bg-primary-5 self-end btn-primary"
             >
-              <div class="flex items-center gap-16 text-neutral-base">
-                <div class="flex p-8 br-16 text-neutral-inverse bg-primary-5">
-                  06.
-                </div>
-                Neurología
-              </div>
-
-              <div class="flex items-end justify-between">
-                <div class="position-relative">
-                  <div
-                    class="flex bg-primary-2 position-absolute"
-                    style="
-                      width: 48px;
-                      height: 48px;
-                      border-radius: 50%;
-                      left: 16px;
-                      top: 8px;
-                      z-index: -1;
-                    "
-                  ></div>
-
-                  <img src="assets/neuro.svg" width="40" height="40" />
-                </div>
-
-                <button
-                  class="flex items-center gap-8 br-16 text-primary-5 btn-link"
-                >
-                  Ver curso
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-
-            <!-- Reumatología -->
-            <div
-              class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-            >
-              <div class="flex items-center gap-16 text-neutral-base">
-                <div class="flex p-8 br-16 text-neutral-inverse bg-primary-5">
-                  07.
-                </div>
-                Reumatología
-              </div>
-
-              <div class="flex items-end justify-between">
-                <div class="position-relative">
-                  <div
-                    class="flex bg-primary-2 position-absolute"
-                    style="
-                      width: 48px;
-                      height: 48px;
-                      border-radius: 50%;
-                      left: 16px;
-                      top: 8px;
-                      z-index: -1;
-                    "
-                  ></div>
-
-                  <img src="assets/reuma.svg" width="40" height="40" />
-                </div>
-
-                <button
-                  class="flex items-center gap-8 br-16 text-primary-5 btn-link"
-                >
-                  Ver curso
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-
-            <!-- Nefrología -->
-            <div
-              class="flex-grow flex-column p-24 gap-24 br-16 bg-shadow-neutral cursor-pointer card-cursos"
-            >
-              <div class="flex items-center gap-16 text-neutral-base">
-                <div class="flex p-8 br-16 text-neutral-inverse bg-primary-5">
-                  08.
-                </div>
-                Nefrología
-              </div>
-
-              <div class="flex items-end justify-between">
-                <div class="position-relative">
-                  <div
-                    class="flex bg-primary-2 position-absolute"
-                    style="
-                      width: 48px;
-                      height: 48px;
-                      border-radius: 50%;
-                      left: 16px;
-                      top: 8px;
-                      z-index: -1;
-                    "
-                  ></div>
-
-                  <img src="assets/nefr.svg" width="40" height="40" />
-                </div>
-
-                <button
-                  class="flex items-center gap-8 br-16 text-primary-5 btn-link"
-                >
-                  Ver curso
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
+              Ver todos los cursos
+            </button>
           </div>
         </div>
 
-        <button
-          class="flex items-center px-24 py-16 gap-8 br-16 shadow-primary text-neutral-inverse bg-primary-5 self-end btn-primary"
-        >
-          Ver todos los cursos
-        </button>
+        <img
+          src="assets/pexels-thirdman-5327649-removebg-preview.png"
+          alt=""
+          class="position-absolute"
+          width="360"
+          style="bottom: 0; left: 0"
+        />
       </section>
 
+      <!-- flashcards -->
       <section
         id="flashcards"
         class="w100 flex justify-center bg-secondary-third-soft"
       >
-        <div class="w100 gap-40 px-40 py-80" style="max-width: 1366px">
-          <div class="w100 flex-column gap-80">
-            <div class="flex flex-center gap-80 px-40">
-              <div class="flex-column gap-24">
-                <div class="flex-column">
-                  <h3 class="text-regular text-secondary-second-hard">
-                    Refuerza tu memoria con
-                  </h3>
+        <div
+          class="w100 flex items-center gap-80 px-40 py-80"
+          style="max-width: 1400px"
+        >
+          <!-- left -->
+          <div class="flex-column flex-center gap-40" style="flex: 1">
+            <!-- title -->
+            <div class="flex-column">
+              <h3 class="text-regular text-secondary-second-hard">
+                Refuerza tu memoria con
+              </h3>
 
-                  <h2 class="text-medium text-secondary-second-hard">
-                    tarjetas educativas
-                  </h2>
-                </div>
-
-                <h5 class="text-regular text-neutral-subordinary">
-                  Las flash cards optimizan tu memoria a largo plazo y facilitan
-                  la retención de conceptos clave.
-                </h5>
-              </div>
-
-              <img
-                src="assets/pexels-hawk-i-i-75310404-19547594 1.png"
-                alt=""
-                width="320"
-                height="320"
-                style="border-radius: 50%"
-              />
-
-              <img
-                src="assets/pexels-thirdman-5327920 1.png"
-                alt=""
-                width="240"
-                height="240"
-                style="border-radius: 50%"
-              />
+              <h2 class="text-medium text-secondary-second-hard">
+                tarjetas educativas
+              </h2>
             </div>
 
-            <div class="flex gap-80" style="align-items: stretch">
-              <div
-                class="flex-column justify-between card-container"
-                style="width: 600px"
-              >
-                <!-- card -->
+            <div class="flex-column gap-24">
+              <h5 class="text-medium text-primary-4">
+                Encuéntralas organizadas por tema
+              </h5>
+
+              <div class="flex-column gap-8">
+                <!-- ginecologia -->
                 <div
-                  class="flex-column text-center gap-24 bg-secondary-first-hard br-40 card"
-                  style="width: 600px; height: 340px"
+                  class="flex flex-center gap-24 px-40 py-16 br-16 bg-shadow-primary"
                 >
-                  <!-- pregunta -->
-                  <div class="flex flex-center gap-40 px-40 py-24 card-front">
-                    <img src="assets/emma.svg" alt="" />
+                  <h5
+                    class="text-medium text-primary-5 text-center"
+                    style="width: 160px"
+                  >
+                    Ginecología
+                  </h5>
 
-                    <div class="flex-column items-center gap-40">
-                      <div
-                        class="flex-column items-center gap-16 text-neutral-inverse"
-                      >
-                        <h4 class="text-medium">Sistema endocrino</h4>
+                  <p
+                    class="text-regular text-neutral-subordinary"
+                    style="flex: 1"
+                  >
+                    SOP: criterios Dx según Rotterdan
+                  </p>
 
-                        <h5 class="text-regular">
-                          ¿Cuál es la hormona principal secretada por la
-                          glándula suprarrenal?
-                        </h5>
-                      </div>
-
-                      <button
-                        onclick="flipCard()"
-                        class="flex items-center px-24 py-16 gap-8 br-16 shadow-neutral text-neutral-base bg-neutral-inverse btn-neutral"
-                      >
-                        Ver respuesta
-                        <svg
-                          width="17"
-                          height="17"
-                          viewBox="0 0 17 17"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M8.85156 16.4971C4.74731 16.4971 2.43772 13.5976 1.42791 11.8704V11.8754C1.0505 11.231 0.851562 10.4976 0.851562 9.75082C0.851562 9.00401 1.0505 8.27062 1.42791 7.62621C1.97053 6.68888 2.6533 5.84003 3.45254 5.10914L2.54021 3.83192C2.46008 3.72544 2.40203 3.60406 2.36949 3.47481C2.33697 3.34561 2.33057 3.21118 2.35073 3.07948C2.37088 2.94774 2.41715 2.82136 2.48684 2.70779C2.55653 2.59423 2.6482 2.49573 2.7565 2.41811C2.86479 2.34043 2.98751 2.28526 3.11745 2.25572C3.24738 2.22619 3.3819 2.22289 3.51313 2.24614C3.64436 2.26933 3.76961 2.31852 3.88151 2.39083C3.99344 2.46308 4.0898 2.55706 4.16491 2.66709L5.07975 3.94688C5.93842 3.47639 6.87947 3.17517 7.85174 3.05954V1.49982C7.85174 1.23467 7.95707 0.98032 8.14459 0.792854C8.33208 0.605328 8.58639 0.5 8.85156 0.5C9.11674 0.5 9.37102 0.605328 9.55854 0.792854C9.74605 0.98032 9.85138 1.23467 9.85138 1.49982V3.05954C10.8233 3.17359 11.7643 3.47316 12.6234 3.94188L13.5382 2.66208C13.6953 2.45344 13.9277 2.31449 14.1859 2.27501C14.444 2.23553 14.7074 2.29862 14.9196 2.45076C15.1318 2.60295 15.2761 2.8321 15.3216 3.08926C15.3671 3.34641 15.3101 3.61119 15.1629 3.82692L14.2531 5.10414C15.0509 5.83571 15.7328 6.68448 16.2752 7.62121C16.6526 8.26569 16.8516 8.99901 16.8516 9.74583C16.8516 10.4926 16.6526 11.226 16.2752 11.8704C15.2654 13.5976 12.9558 16.4971 8.85156 16.4971ZM8.85156 4.99918C5.74463 4.99918 3.94745 7.2763 3.1526 8.63603C2.95612 8.97381 2.8526 9.35759 2.8526 9.74832C2.8526 10.1391 2.95612 10.5228 3.1526 10.8606C3.94745 12.2204 5.74463 14.4975 8.85156 14.4975C11.9585 14.4975 13.7557 12.2204 14.5505 10.8606C14.747 10.5228 14.8505 10.1391 14.8505 9.74832C14.8505 9.35759 14.747 8.97381 14.5505 8.63603C13.7557 7.2763 11.9585 4.99918 8.85156 4.99918ZM10.6568 12.4501C10.1225 12.8071 9.49425 12.9977 8.85156 12.9977C7.98977 12.9977 7.16327 12.6554 6.55388 12.046C5.94449 11.4366 5.60215 10.6101 5.60215 9.74832C5.60215 9.10569 5.79272 8.47743 6.14978 7.94305C6.50681 7.40865 7.01432 6.99222 7.60806 6.74624C8.20183 6.50031 8.85516 6.436 9.4855 6.56135C10.1158 6.68675 10.6948 6.9962 11.1492 7.45064C11.6037 7.90508 11.9132 8.48408 12.0385 9.11441C12.1639 9.74472 12.0996 10.3981 11.8536 10.9918C11.6077 11.5856 11.1912 12.093 10.6568 12.4501ZM9.54589 8.70921C9.34037 8.57184 9.09874 8.49855 8.85156 8.49855C8.5201 8.49855 8.20223 8.63025 7.96785 8.86458C7.73347 9.09897 7.60179 9.41683 7.60179 9.74832C7.60179 9.99553 7.6751 10.2371 7.8124 10.4426C7.94973 10.6482 8.14494 10.8084 8.3733 10.903C8.60166 10.9975 8.85296 11.0223 9.09539 10.9741C9.33782 10.9258 9.56048 10.8069 9.73528 10.6321C9.91007 10.4572 10.0291 10.2346 10.0773 9.9921C10.1256 9.74972 10.1008 9.49842 10.0062 9.27009C9.91162 9.04168 9.75142 8.84651 9.54589 8.70921Z"
-                            fill="currentColor"
-                          />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-
-                  <!-- respuesta -->
-                  <div class="flex flex-center gap-40 px-40 px-24 card-back">
-                    <div class="flex-column items-center gap-16">
-                      <div class="flex-column items-center">
-                        <p class="text-regular text-secondary-first-medium">
-                          Respuesta:
-                        </p>
-
-                        <h4 class="text-medium text-neutral-inverse">
-                          Cortisol
-                        </h4>
-                      </div>
-
-                      <h5 class="text-regular text-neutral-inverse">
-                        El cortisol pertenece a los glucocorticoides, es
-                        fundamental para la regulación del metabolismo, la
-                        respuesta al estrés y la regulación inflamatoria del
-                        cuerpo. También ayuda a mantener la presión arterial y
-                        el equilibrio de glucosa en sangre.
-                      </h5>
-                    </div>
-                  </div>
+                  <button
+                    class="flex flex-center gap-8 p-8 br-16 shadow-primary text-neutral-inverse bg-primary-5"
+                    style="width: 54px; height: 54px"
+                  >
+                    <img src="/assets/rayo.svg" alt="" />
+                  </button>
                 </div>
 
-                <h5 class="text-regular text-secondary-first-medium text-center">
-                  ¡Repasa conceptos fundamentales, diagnósticos diferenciales y
-                  esquemas de decisión clínica que aparecen con frecuencia en
-                  los exámenes nacionales!
-                </h5>
+                <!-- pediatria -->
+                <div
+                  class="flex flex-center gap-24 px-40 py-16 br-16 bg-shadow-primary"
+                >
+                  <h5
+                    class="text-medium text-primary-5 text-center"
+                    style="width: 160px"
+                  >
+                    Pediatría
+                  </h5>
+
+                  <p
+                    class="text-regular text-neutral-subordinary"
+                    style="flex: 1"
+                  >
+                    Indicaciones para uso de PALIVIZUMAB
+                  </p>
+
+                  <button
+                    class="flex flex-center gap-8 p-8 br-16 shadow-primary text-neutral-inverse bg-primary-5"
+                    style="width: 54px; height: 54px"
+                  >
+                    <img src="/assets/rayo.svg" alt="" />
+                  </button>
+                </div>
+
+                <!-- cirugia -->
+                <div
+                  class="flex flex-center gap-24 px-40 py-16 br-16 bg-shadow-primary"
+                >
+                  <h5
+                    class="text-medium text-primary-5 text-center"
+                    style="width: 160px"
+                  >
+                    Cirugía
+                  </h5>
+
+                  <p
+                    class="text-regular text-neutral-subordinary"
+                    style="flex: 1"
+                  >
+                    Signos Rx de ileo biliar
+                  </p>
+
+                  <button
+                    class="flex flex-center gap-8 p-8 br-16 shadow-primary text-neutral-inverse bg-primary-5"
+                    style="width: 54px; height: 54px"
+                  >
+                    <img src="/assets/rayo.svg" alt="" />
+                  </button>
+                </div>
               </div>
 
-              <div class="flex-column justify-end gap-40">
-                <h5 class="text-medium text-primary-4">
-                  Encuéntralas organizadas por tema
-                </h5>
-
-                <div class="flex-column gap-8">
-                  <div
-                    class="flex flex-center gap-24 px-40 py-16 br-16 bg-shadow-primary"
-                  >
-                    <h5
-                      class="text-medium text-primary-5 text-center"
-                      style="width: 160px"
-                    >
-                      Ginecología
-                    </h5>
-
-                    <p
-                      class="text-regular text-neutral-subordinary"
-                      style="flex: 1"
-                    >
-                      SOP: criterios Dx según Rotterdan
-                    </p>
-
-                    <button
-                      class="flex flex-center gap-8 p-8 br-16 shadow-primary text-neutral-inverse bg-primary-5"
-                      style="width: 54px; height: 54px"
-                    >
-                      <img src="/assets/rayo.svg" alt="" />
-                    </button>
-                  </div>
-
-                  <div
-                    class="flex flex-center gap-24 px-40 py-16 br-16 bg-shadow-primary"
-                  >
-                    <h5
-                      class="text-medium text-primary-5 text-center"
-                      style="width: 160px"
-                    >
-                      Pediatría
-                    </h5>
-
-                    <p
-                      class="text-regular text-neutral-subordinary"
-                      style="flex: 1"
-                    >
-                      Indicaciones para uso de PALIVIZUMAB
-                    </p>
-
-                    <button
-                      class="flex flex-center gap-8 p-8 br-16 shadow-primary text-neutral-inverse bg-primary-5"
-                      style="width: 54px; height: 54px"
-                    >
-                      <img src="/assets/rayo.svg" alt="" />
-                    </button>
-                  </div>
-
-                  <div
-                    class="flex flex-center gap-24 px-40 py-16 br-16 bg-shadow-primary"
-                  >
-                    <h5
-                      class="text-medium text-primary-5 text-center"
-                      style="width: 160px"
-                    >
-                      Cirugía
-                    </h5>
-
-                    <p
-                      class="text-regular text-neutral-subordinary"
-                      style="flex: 1"
-                    >
-                      Signos Rx de ileo biliar
-                    </p>
-
-                    <button
-                      class="flex flex-center gap-8 p-8 br-16 shadow-primary text-neutral-inverse bg-primary-5"
-                      style="width: 54px; height: 54px"
-                    >
-                      <img src="/assets/rayo.svg" alt="" />
-                    </button>
-                  </div>
-
-                  <div
-                    class="flex flex-center gap-24 px-40 py-16 br-16 bg-shadow-primary"
-                  >
-                    <h5
-                      class="text-medium text-primary-5 text-center"
-                      style="width: 160px"
-                    >
-                      Medicina
-                    </h5>
-
-                    <p
-                      class="text-regular text-neutral-subordinary"
-                      style="flex: 1"
-                    >
-                      Criterios para hemodiálisis
-                    </p>
-
-                    <button
-                      class="flex flex-center gap-8 p-8 br-16 shadow-primary text-neutral-inverse bg-primary-5"
-                      style="width: 54px; height: 54px"
-                    >
-                      <img src="/assets/rayo.svg" alt="" />
-                    </button>
-                  </div>
-                </div>
-
-                <button
-                  class="flex items-center gap-8 text-primary-5 self-end btn-link"
+              <button class="flex items-center gap-8 text-primary-5 btn-link">
+                Ver todas las Flash Cards
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  Ver todas las Flash Cards
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <path
+                    d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="flex-column gap-80" style="width: 600px">
+            <!-- card -->
+            <div
+              class="flex-column text-center gap-24 bg-secondary-first-hard br-40 card"
+              style="width: 600px; height: 340px"
+            >
+              <!-- pregunta -->
+              <div class="flex flex-center gap-40 px-40 py-24 card-front">
+                <img src="assets/emma.svg" alt="" />
+
+                <div class="flex-column items-center gap-40">
+                  <div
+                    class="flex-column items-center gap-16 text-neutral-inverse"
                   >
-                    <path
-                      d="M15.6943 7.16076C16.1019 7.5684 16.1019 8.25398 15.6943 8.66163L10.1726 14.2019C9.96873 14.4057 9.69079 14.5169 9.41285 14.5169C9.13492 14.5169 8.87551 14.4057 8.65316 14.2019C8.24551 13.7942 8.24551 13.1086 8.65316 12.701L12.359 8.99515H1.0747C0.48176 8.99515 0 8.51339 0 7.92046C0 7.32752 0.48176 6.84576 1.0747 6.84576H12.359L8.65316 3.13991C8.24551 2.73227 8.24551 2.04669 8.65316 1.63905C9.0608 1.2314 9.74638 1.2314 10.154 1.63905L15.6943 7.16076Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
+                    <h4 class="text-medium">Sistema endocrino</h4>
+
+                    <h5 class="text-regular">
+                      ¿Cuál es la hormona principal secretada por la glándula
+                      suprarrenal?
+                    </h5>
+                  </div>
+
+                  <button
+                    onclick="flipCard()"
+                    class="flex items-center px-24 py-16 gap-8 br-16 shadow-neutral text-neutral-base bg-neutral-inverse btn-neutral"
+                  >
+                    Ver respuesta
+                    <svg
+                      width="17"
+                      height="17"
+                      viewBox="0 0 17 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8.85156 16.4971C4.74731 16.4971 2.43772 13.5976 1.42791 11.8704V11.8754C1.0505 11.231 0.851562 10.4976 0.851562 9.75082C0.851562 9.00401 1.0505 8.27062 1.42791 7.62621C1.97053 6.68888 2.6533 5.84003 3.45254 5.10914L2.54021 3.83192C2.46008 3.72544 2.40203 3.60406 2.36949 3.47481C2.33697 3.34561 2.33057 3.21118 2.35073 3.07948C2.37088 2.94774 2.41715 2.82136 2.48684 2.70779C2.55653 2.59423 2.6482 2.49573 2.7565 2.41811C2.86479 2.34043 2.98751 2.28526 3.11745 2.25572C3.24738 2.22619 3.3819 2.22289 3.51313 2.24614C3.64436 2.26933 3.76961 2.31852 3.88151 2.39083C3.99344 2.46308 4.0898 2.55706 4.16491 2.66709L5.07975 3.94688C5.93842 3.47639 6.87947 3.17517 7.85174 3.05954V1.49982C7.85174 1.23467 7.95707 0.98032 8.14459 0.792854C8.33208 0.605328 8.58639 0.5 8.85156 0.5C9.11674 0.5 9.37102 0.605328 9.55854 0.792854C9.74605 0.98032 9.85138 1.23467 9.85138 1.49982V3.05954C10.8233 3.17359 11.7643 3.47316 12.6234 3.94188L13.5382 2.66208C13.6953 2.45344 13.9277 2.31449 14.1859 2.27501C14.444 2.23553 14.7074 2.29862 14.9196 2.45076C15.1318 2.60295 15.2761 2.8321 15.3216 3.08926C15.3671 3.34641 15.3101 3.61119 15.1629 3.82692L14.2531 5.10414C15.0509 5.83571 15.7328 6.68448 16.2752 7.62121C16.6526 8.26569 16.8516 8.99901 16.8516 9.74583C16.8516 10.4926 16.6526 11.226 16.2752 11.8704C15.2654 13.5976 12.9558 16.4971 8.85156 16.4971ZM8.85156 4.99918C5.74463 4.99918 3.94745 7.2763 3.1526 8.63603C2.95612 8.97381 2.8526 9.35759 2.8526 9.74832C2.8526 10.1391 2.95612 10.5228 3.1526 10.8606C3.94745 12.2204 5.74463 14.4975 8.85156 14.4975C11.9585 14.4975 13.7557 12.2204 14.5505 10.8606C14.747 10.5228 14.8505 10.1391 14.8505 9.74832C14.8505 9.35759 14.747 8.97381 14.5505 8.63603C13.7557 7.2763 11.9585 4.99918 8.85156 4.99918ZM10.6568 12.4501C10.1225 12.8071 9.49425 12.9977 8.85156 12.9977C7.98977 12.9977 7.16327 12.6554 6.55388 12.046C5.94449 11.4366 5.60215 10.6101 5.60215 9.74832C5.60215 9.10569 5.79272 8.47743 6.14978 7.94305C6.50681 7.40865 7.01432 6.99222 7.60806 6.74624C8.20183 6.50031 8.85516 6.436 9.4855 6.56135C10.1158 6.68675 10.6948 6.9962 11.1492 7.45064C11.6037 7.90508 11.9132 8.48408 12.0385 9.11441C12.1639 9.74472 12.0996 10.3981 11.8536 10.9918C11.6077 11.5856 11.1912 12.093 10.6568 12.4501ZM9.54589 8.70921C9.34037 8.57184 9.09874 8.49855 8.85156 8.49855C8.5201 8.49855 8.20223 8.63025 7.96785 8.86458C7.73347 9.09897 7.60179 9.41683 7.60179 9.74832C7.60179 9.99553 7.6751 10.2371 7.8124 10.4426C7.94973 10.6482 8.14494 10.8084 8.3733 10.903C8.60166 10.9975 8.85296 11.0223 9.09539 10.9741C9.33782 10.9258 9.56048 10.8069 9.73528 10.6321C9.91007 10.4572 10.0291 10.2346 10.0773 9.9921C10.1256 9.74972 10.1008 9.49842 10.0062 9.27009C9.91162 9.04168 9.75142 8.84651 9.54589 8.70921Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- respuesta -->
+              <div class="flex flex-center gap-40 px-40 px-24 card-back">
+                <div class="flex-column items-center gap-16">
+                  <div class="flex-column items-center">
+                    <p class="text-regular text-secondary-first-medium">
+                      Respuesta:
+                    </p>
+
+                    <h4 class="text-medium text-neutral-inverse">Cortisol</h4>
+                  </div>
+
+                  <h5 class="text-regular text-neutral-inverse">
+                    El cortisol pertenece a los glucocorticoides, es fundamental
+                    para la regulación del metabolismo, la respuesta al estrés y
+                    la regulación inflamatoria del cuerpo. También ayuda a
+                    mantener la presión arterial y el equilibrio de glucosa en
+                    sangre.
+                  </h5>
+                </div>
               </div>
             </div>
+
+            <h5
+              class="text-regular text-secondary-first-medium text-center text-right"
+            >
+              ¡Repasa conceptos fundamentales, diagnósticos diferenciales y
+              esquemas de decisión clínica que aparecen con frecuencia en los
+              exámenes nacionales!
+            </h5>
           </div>
         </div>
       </section>
 
+      <!-- metodologia -->
       <section
         id="metodologia"
         class="flex gap-80 px-40 py-80"
-        style="max-width: 1366px"
+        style="max-width: 1400px"
       >
+        <!-- left -->
         <div
-          class="flex-column justify-between items-center gap-40 px-40 pt-40 br-16 bg-secondary-third-hard"
-          style="width: 433px"
+          class="flex-column justify-between items-center gap-24 px-40 pt-40 br-16 bg-secondary-third-hard"
+          style="width: 432px"
         >
-          <h4 class="text-medium text-center text-neutral-inverse">
-            Descubre cómo te ayudamos a aprender
-          </h4>
+          <div class="flex flex-center" style="flex: 1">
+            <h4 class="text-medium text-center text-neutral-inverse">
+              Descubre cómo te ayudamos a aprender
+            </h4>
+          </div>
 
           <img
             src="assets/pexels-tessy-agbonome-521343232-19131215-removebg-preview 3.png"
-            alt=""
-            width="415"
+            height="412
+            "
           />
         </div>
 
+        <!-- right -->
         <div class="flex-column items-center gap-40">
+          <!-- title -->
           <div class="flex-column gap-24">
             <h3 class="flex-column text-neutral-base">
               <span class="text-medium"> Nuestra Metodología </span>
@@ -836,13 +730,12 @@
             </h3>
 
             <h5 class="text-regular text-neutral-subordinary">
-              Te acompañamos en cada etapa de tu preparación, transformando el
-              desafío de los exámenes médicos en una oportunidad de crecimiento
-              profesional.
+              Te acompañamos en cada etapa de tu preparación, convirtiendo los
+              exámenes médicos en una oportunidad para crecer profesionalmente.
             </h5>
           </div>
 
-          <div class="flex-column gap-40">
+          <div class="flex-column gap-24">
             <div class="flex items-center gap-24">
               <div
                 class="flex items-center p-16 bg-secondary-third-hard text-neutral-inverse"
@@ -855,9 +748,8 @@
                 <h5 class="text-medium">Lecciones en video</h5>
 
                 <p class="text-regular">
-                  Explicaciones detalladas y claras que facilitan la comprensión
-                  y visualización de conceptos médicos complejos con
-                  profundidad.
+                  Explicaciones visuales que te ayudan a entender los conceptos
+                  médicos más complejos.
                 </p>
               </div>
             </div>
@@ -874,9 +766,8 @@
                 <h5 class="text-medium">Material de estudio</h5>
 
                 <p class="text-regular">
-                  Recursos comprehensivos diseñados para reforzar, consolidar tu
-                  conocimiento y brindarte herramientas sólidas para tu
-                  preparación académica.
+                  Recursos pensados para reforzar lo aprendido y ayudarte a
+                  avanzar en tu preparación.
                 </p>
               </div>
             </div>
@@ -893,9 +784,8 @@
                 <h5 class="text-medium">Prueba tus conocimientos</h5>
 
                 <p class="text-regular">
-                  Evaluaciones estratégicas que te permiten medir tu progreso,
-                  identificar áreas de mejora y adaptar tu estrategia de estudio
-                  de manera efectiva.
+                  Evaluaciones que te muestran cómo vas, qué mejorar y cómo
+                  enfocar mejor tu estudio.
                 </p>
               </div>
             </div>
@@ -912,9 +802,8 @@
                 <h5 class="text-medium">Grupo de Telegram</h5>
 
                 <p class="text-regular">
-                  Comunidad de estudiantes comprometidos donde podrás
-                  intercambiar conocimientos, resolver dudas y mantenerte
-                  motivado durante tu preparación.
+                  Una comunidad activa de estudiantes como tú, donde puedes
+                  resolver dudas, compartir tips y motivarte.
                 </p>
               </div>
             </div>
@@ -925,13 +814,10 @@
       <section class="w100 flex justify-center bg-neutral-base">
         <div
           class="w100 flex justify-center gap-80 px-80 pt-40 pb-80"
-          style="max-width: 1366px"
+          style="max-width: 1400px"
         >
           <div class="flex justify-center self-start gap-80" style="flex: 1">
-            <div class="flex flex-center gap-8">
-              <img src="assets/Group 1.svg" alt="" />
-              <img src="assets/Frame 2.svg" alt="" />
-            </div>
+            <img src="assets/logo2.svg" alt="" height="40" />
           </div>
 
           <div class="flex-column gap-40" style="width: 300px">
@@ -965,7 +851,7 @@
             <h5 class="text-medium">Contáctanos</h5>
 
             <div class="flex-column gap-16">
-              <p>correo@gmail.com</p>
+              <p>twomedicsoficial&#64;gmail.com</p>
 
               <p>+51 999 999 999</p>
             </div>
